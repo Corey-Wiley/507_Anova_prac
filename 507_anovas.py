@@ -144,7 +144,7 @@ CPT_ping = pg.pairwise_gameshowell(data=heartFail, dv='Cholesterol', between='Ch
 heartFail.fillna(0)
 heartFail.replace(np.nan, 0)
 
-## Post-hoc eeps giving the following error message : "Cannot convert float 
+## Post-hoc keeps giving the following error message : "Cannot convert float 
 ## NaN to integer"
 
 
